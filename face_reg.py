@@ -1,4 +1,4 @@
-import cv2
+# import cv2
 import streamlit as st
 
 st.markdown("<h1 style = 'color: #FFACAC'>FACE DETECTION APP</h1> ", unsafe_allow_html = True)
