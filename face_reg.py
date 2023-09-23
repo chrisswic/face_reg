@@ -19,8 +19,8 @@ if st.button('Read the usage Instructions below'):
 
 st.markdown('<br>', unsafe_allow_html= True)
 # Start the face detection
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default .xml')
-camera = cv2.VideoCapture(0)
+# face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default .xml')
+# camera = cv2.VideoCapture(0)
 
 # set the minNeighbours abd Scale Factor buttons
 min_Neighbours = st.slider('Adjust Min Neighbour', 1, 10, 5)
