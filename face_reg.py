@@ -31,7 +31,7 @@ st.markdown('<br>', unsafe_allow_html= True)
 if st.button('FACE DETECT'):
 # Initialize the webcam
     while True:
-        _, camera_view = camera.read()   #....................................... Initiate the camera
+        # _, camera_view = camera.read()   #....................................... Initiate the camera
         gray = cv2.cvtColor(camera_view, cv2.COLOR_BGR2GRAY) #.................. Grayscale it using the cv grayscale library
     #   Detect the faces using the face cascade classifier
         faces = face_cascade.detectMultiScale(gray, scaleFactor= Scale_Factor, minNeighbors= min_Neighbours, minSize = (30, 30), flags = cv2.CASCADE_SCALE_IMAGE)
